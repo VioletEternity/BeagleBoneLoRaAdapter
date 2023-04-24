@@ -1,0 +1,7 @@
+Reference," Quantity"," Value"," Footprint"," Manufacturer"," PartNumber"
+"C1 C3 C4 C6 ",4,DNP,Capacitor_SMD:C_0603_1608Metric,,
+"C2 C5 ",2,220p,Capacitor_SMD:C_0603_1608Metric,KEMET,C0603C221J5GACTU
+"C7 C8 ",2,10u,Capacitor_SMD:C_0603_1608Metric,Murata,GRM188R61C106MA73D
+"J1 J2 ",2,Conn_Coaxial,Library:SMA_Cinch_142-0701_Vertical,Cinch,142-0701-201
+"J3 ",1,Conn_02x23_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical,Samtec,TSW-125-07-G-D
+"U1 U2 ",2,SX127x_Transceiver,Library:LoRaModule-16_16.0x16.0mm_Layout2x8_P2.0mm,,

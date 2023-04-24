@@ -4,7 +4,7 @@ This PCBA connects widely available LoRa modules based on Semtech [SX127x][] RFI
 
 [module]: https://www.aliexpress.com/item/32814250318.html
 [module-archive]: https://archive.today/oJ4Fh
-[s127x]: https://www.semtech.com/products/wireless-rf/lora-connect
+[sx127x]: https://www.semtech.com/products/wireless-rf/lora-connect
 [beaglebone]: https://beaglebone.org
 
 ![assembled board](Images/Assembly_with_BeagleBone.jpg)

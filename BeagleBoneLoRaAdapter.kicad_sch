@@ -690,7 +690,7 @@
     (uuid fe666742-30e1-4978-9f7e-402f2be95322)
   )
 
-  (text "Note: SPI configured as D1 output, D0 input\n\nPinout:\n  Module 0:\n    ~{RESET}: gpio1[16]\n    IRQ:   gpio1[19]\n    ~{CS}:    gpio0[5]\n    SCK:   gpio0[2]\n    MOSI:  gpio0[4]\n    MISO:  gpio0[3]\n  Module 1:\n    ~{RESET}: gpio3[21]\n    IRQ:   gpio3[19]\n    ~{CS}:    gpio3[17]\n    SCK:   gpio3[14]\n    MOSI:  gpio3[16]\n    MISO:  gpio3[15]"
+  (text "Note: SPI configured as D1 output, D0 input\n\nPinout:\n  Module 0:\n    ~{RESET}: gpio1[16], P9_15\n    IRQ:   gpio1[19], P9_16\n    ~{CS}:    gpio0[5],  P9_17\n    SCK:   gpio0[2],  P9_22\n    MOSI:  gpio0[4],  P9_18\n    MISO:  gpio0[3],  P9_21\n  Module 1:\n    ~{RESET}: gpio3[21], P9_25\n    IRQ:   gpio3[19], P9_27\n    ~{CS}:    gpio3[17], P9_28\n    SCK:   gpio3[14], P9_31\n    MOSI:  gpio3[16], P9_30\n    MISO:  gpio3[15], P9_29"
     (at 139.7 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb3a727d-ed9c-488b-82e6-3cecb13fe9cb)

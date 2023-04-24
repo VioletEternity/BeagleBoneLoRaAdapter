@@ -13,16 +13,16 @@ This PCBA connects widely available LoRa modules based on Semtech [SX127x][] RFI
 
 The module must have a size of 16 by 16 mm, and have 16 castellated pads with 2 mm spacing; for details, see the Kicad footprint. The module pinout must match the following, viewed from the top:
 
-| Pin 1? | &nbsp; |
-| ------ | ------ |
-| ANT    |    GND |
-| GND    |   DIO5 |
-| DIO3   | nRESET |
-| DIO4   |    nCS |
-| 3V3    |    SCK |
-| DIO0   |   MOSI |
-| DIO1   |   MISO |
-| DIO2   |    GND |
+| Pin 1? | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp; |
+| ------ | - | ------ |
+| ANT    |   |    GND |
+| GND    |   |   DIO5 |
+| DIO3   |   | nRESET |
+| DIO4   |   |    nCS |
+| 3V3    |   |    SCK |
+| DIO0   |   |   MOSI |
+| DIO1   |   |   MISO |
+| DIO2   |   |    GND |
 
 These modules do not have a clearly marked pin 1, so the actual pinout may be rotated 180° compared to the above.
 

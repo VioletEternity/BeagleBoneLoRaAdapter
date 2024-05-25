@@ -56,20 +56,25 @@ Radio 0 is connected to CS0 of SPI0, radio 1 is connected to CS0 of SPI1.
 To configure BeagleBone pins, run the following commands:
 
 ```shell
-config-pin P9_15 gpio
-config-pin P9_16 gpio_input
+sudo modprobe spidev
+sudo chown $USER /dev/spidev*
+
+config-pin P9_15 gpio_pu
+config-pin P9_16 gpio_pu
 config-pin P9_17 spi_cs
 config-pin P9_22 spi_sclk
 config-pin P9_18 spi
 config-pin P9_21 spi
 
-config-pin P9_25 gpio
-config-pin P9_27 gpio_input
+config-pin P9_25 gpio_pu
+config-pin P9_27 gpio_pu
 config-pin P9_28 spi_cs
 config-pin P9_31 spi_sclk
 config-pin P9_30 spi
 config-pin P9_29 spi
 ```
+
+These commands were tested on Debian 12 (bookworm).
 
 ### Basic functional test
 
